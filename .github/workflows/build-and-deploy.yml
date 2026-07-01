@@ -67,12 +67,11 @@ jobs:
       - name: Set up kubectl
         uses: azure/setup-kubectl@v3
         with:
-          version: 'latest'
+          version: "latest"
 
       - name: Configure kubectl
         run: |
           mkdir -p $HOME/.kube
-         # echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > $HOME/.kube/config
           echo "${{ secrets.KUBE_CONFIG }}" > $HOME/.kube/config
           chmod 600 $HOME/.kube/config
 
