@@ -21,7 +21,7 @@ Content-Type: application/json
     },
     {
       "title": "Automatização de Infraestrutura",
-      "resumo": "Automatize o provisionamento de recursos na nuvem.",
+      "resumo": "Automatize o provisionamento de recursos na nuvem!",
       "description": "Aprenda a usar ferramentas de automação para criar, gerenciar e escalar infraestrutura na nuvem de forma eficiente."
     },
     {
